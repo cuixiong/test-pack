@@ -8,7 +8,7 @@
 namespace Huosdk\TestPack\controller;
 class PersonController {
     public function eat() {
-        echo "eat";
+        return  "eat";
     }
 
 
