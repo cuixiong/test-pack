@@ -1,0 +1,18 @@
+{
+    "name": "huosdk/test-pack",
+    "description": "\u0010\u0010\u0010\u0010\u0010\u0010",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Huosdk\\TestPack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cuixiong",
+            "email": "798396652@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
