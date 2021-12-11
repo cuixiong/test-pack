@@ -22,6 +22,9 @@ class ComposerStaticInitab78916f0f97fa8b279a0edf2e7df4c7
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Huosdk\\TestPack\\controller\\PersonController' => __DIR__ . '/../..' . '/src/controller/PersonController.php',
+        'Huosdk\\TestPack\\controller\\StudentController' => __DIR__ . '/../..' . '/src/controller/StudentController.php',
+        'Huosdk\\TestPack\\lib\\constant\\PersonConstant' => __DIR__ . '/../..' . '/src/lib/constant/PersonConstant.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

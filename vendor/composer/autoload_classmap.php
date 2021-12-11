@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Huosdk\\TestPack\\controller\\PersonController' => $baseDir . '/src/controller/PersonController.php',
+    'Huosdk\\TestPack\\controller\\StudentController' => $baseDir . '/src/controller/StudentController.php',
+    'Huosdk\\TestPack\\lib\\constant\\PersonConstant' => $baseDir . '/src/lib/constant/PersonConstant.php',
 );
